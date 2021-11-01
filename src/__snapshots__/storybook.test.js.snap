@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Example/Button Default 1`] = `
+<button
+  style={
+    Object {
+      "backgroundColor": "transparent",
+    }
+  }
+>
+  My Button
+</button>
+`;
+
+exports[`Storyshots Example/Button Large 1`] = `
+<button
+  style={
+    Object {
+      "backgroundColor": "#ff0000",
+    }
+  }
+>
+  Large button
+</button>
+`;
+
+exports[`Storyshots Navigation/NavbarX1 Default 1`] = `
+<div
+  className="header "
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row v-center space-between"
+    >
+      <div
+        className="brand"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <a>
+            Allin.
+          </a>
+        </a>
+      </div>
+      <nav
+        className="collapse "
+        style={
+          Object {
+            "backgroundColor": "#e4ce0b",
+          }
+        }
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="nav-columns"
+          >
+            <div
+              className="nav-column"
+            >
+              <div
+                className="nav-label"
+              >
+                Menu
+              </div>
+              <ul
+                className="nav-links"
+              >
+                <li
+                  className="row"
+                >
+                  <a
+                    href="/about"
+                    onClick={[Function]}
+                  >
+                    About
+                  </a>
+                </li>
+                <li
+                  className="row"
+                >
+                  <a
+                    href="/services"
+                    onClick={[Function]}
+                  >
+                    Services
+                  </a>
+                  <ul
+                    className="sub"
+                  >
+                    <li>
+                      <a
+                        href="/social"
+                        onClick={[Function]}
+                      >
+                        Social media
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/feedback"
+                        onClick={[Function]}
+                      >
+                        Feedback
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  className="row"
+                >
+                  <a
+                    href="/blog"
+                    onClick={[Function]}
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li
+                  className="row"
+                >
+                  <a
+                    href="/privacy"
+                    onClick={[Function]}
+                  >
+                    Privacy policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        className="items"
+      >
+        <div
+          className="item active"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <span>
+              Home
+            </span>
+            <img
+              height="25px"
+              src="https://img.icons8.com/ios/50/000000/home--v3.png"
+            />
+          </a>
+        </div>
+        <div
+          className="item "
+        >
+          <a
+            href="/work"
+            onClick={[Function]}
+          >
+            <span>
+              Work
+            </span>
+            <img
+              height="25px"
+              src="https://img.icons8.com/ios/32/000000/box--v2.png"
+            />
+          </a>
+        </div>
+        <div
+          className="item "
+        >
+          <a
+            href="/contact"
+            onClick={[Function]}
+          >
+            <span>
+              Contact
+            </span>
+            <img
+              height="25px"
+              src="/email.png"
+            />
+          </a>
+        </div>
+        <div
+          className="nav-toggle"
+        >
+          <div
+            className="hamburger-menu"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                src="/menu.png"
+                width={25}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
