@@ -3,9 +3,10 @@ import "./NavbarX1.scss";
 import {
   Link,
   BrowserRouter as Router,
-  useLocation,
-  withRouter,
+  useLocation
 } from "react-router-dom";
+import humburgerIcon from "../../assets/icons/humburger.png";
+import arrowUpIcon from "../../assets/icons/arrow-up.png";
 
 function NavbarX1({ children, collapseColor }) {
   const [menuState, setMenuState] = React.useState(false);
@@ -52,7 +53,7 @@ function NavbarX1({ children, collapseColor }) {
                     className="hamburger-menu"
                   >
                     <div>
-                      <img src="/menu.png" width={25} />
+                      <img src={humburgerIcon} width={25} />
                     </div>
                   </div>
                 )}
@@ -62,7 +63,7 @@ function NavbarX1({ children, collapseColor }) {
                     onClick={() => setMenuState(false)}
                   >
                     <div className="arrowIcon">
-                      <img src="/arrow.png" width={25} />
+                      <img src={arrowUpIcon} width={25} />
                     </div>
                   </div>
                 )}

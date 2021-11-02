@@ -1,0 +1,20 @@
+$width: 80px;
+$radius: 0px;
+
+.sidebar {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  .left {
+    height: 100%;
+    width: $width;
+    box-shadow: rgba(56, 56, 56, 0.1) 0px 1px 3px 0px, rgba(97, 96, 96, 0.06) 0px 1px 2px 0px;
+  }
+  .right {
+    height: 100%;
+    width: calc(100% - 300px);
+  }
+}

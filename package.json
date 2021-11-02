@@ -1,6 +1,6 @@
 {
   "name": "@allinorg/allin-ui",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "files": [
     "dist",
@@ -14,7 +14,9 @@
     "@testing-library/user-event": "^12.8.3",
     "react-router-dom": "^5.3.0",
     "react-test-renderer": "^17.0.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "node-sass": "^6.0.1",
+    "include-media": "^1.4.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -64,9 +66,7 @@
     "@storybook/node-logger": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.12",
-    "cross-env": "^7.0.3",
-    "node-sass": "^6.0.1",
-    "include-media": "^1.4.10"
+    "cross-env": "^7.0.3"
   },
   "peerDependencies": {
     "react": "^17.0.1",
